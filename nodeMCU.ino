@@ -3,13 +3,13 @@
 #include <PubSubClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "Arpo_2.4G";
-const char* password = "0818282765";
+const char* ssid = "";
+const char* password = "";
 const char* mqttServer = "mqtt.netpie.io";
 const int mqttPort = 1883;
 const char* mqttClientID = "aa7568de-af89-4af5-b039-ed5d7c29e974";
-const char* mqttUsername = "oRN112K75vye1A694MbXSF6wZiZLQ22c";
-const char* mqttPassword = "DHAZnmyeTdS8EedJNP6UTr52UptbAQR6";
+const char* mqttUsername = "";
+const char* mqttPassword = "";
 
 #define RX_PIN D5
 #define TX_PIN D6
